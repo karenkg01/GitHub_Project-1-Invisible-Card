@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(images/bg.jpg)no-repeat center;
+}
+
+.card-wrapper {
+    height: 600px;
+    width: 450px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(images/bg.jpg)no-repeat center;
+    transition: box-shadow 1s;
+    border-radius: 5px;
+}
+
+.card-wrapper:hover {
+    box-shadow: 0 0 30px #fff;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background-color: #fff
+}
